@@ -1,0 +1,78 @@
+.gameBoard{
+    height: 78vh;
+    width: 55vw;
+    margin-left: 23%;
+    margin-top: 10%;
+    background-color: black;
+    display: grid;
+    border-radius: 30px;
+    cursor: pointer;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gameBoard div{
+    color: coral;
+    border: 5pt solid coral;
+    height: 1.4em;
+    font-weight: 80%;
+    font-size: 150px;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+    border-radius: 30px;
+}
+
+.restartButton{
+    font-family: "Permanent Marker", cursive ;
+    background-color: black;
+    color: coral;
+    justify-content: center;
+    margin-left: 900px;
+    padding: 25px;
+    border-color: coral;
+    border-width: 5px;
+    font-size: large;
+    border: solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.gameBoard div:hover {
+    background-color : #550a0a;
+    color: black;
+}
+
+.restartButton:hover{
+    background-color: coral;
+    color: black;
+}
+
+.restartButton:active{
+    background-color: black;
+    color: coral;
+    transition: 0.12ms;
+}
+
+.gameName{
+    text-align: center;
+    font-family: "Permanent marker", cursive;
+    font-size: 50px;
+    color: coral;
+}
+
+.body{
+    background-color: black;
+    height: 150vh;
+    width: 100vw;
+}
+
+.TicTacToe{
+    color: rgb(136, 24, 5);
+}
+
+.winningStatement{
+    color: rgb(136, 24, 5);
+    font-size: 70px;
+    text-align: center;
+    font-family: "Permanent marker", cursive;
+}
